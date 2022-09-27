@@ -3,6 +3,8 @@ const url = "https://www.amiiboapi.com/api/amiibo/";
 //console.log(url);
 
 const out = document.querySelector("div#container");
+const search = document.querySelector("#search")
+
 
 
 function listData(list) {
