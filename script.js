@@ -27,6 +27,7 @@ let selectCharacter = () => {
           <img src="${item.image}" alt="${item.name}">
           <h2>${item.name}</h2>
           <p>From: ${item.amiiboSeries}</p>
+          <a href="details.html">Read more</a>
           </div>`;
     }
     out.innerHTML = newDivs;
@@ -36,6 +37,8 @@ let selectCharacter = () => {
 select.addEventListener("change", () => {
   selectCharacter();
 })
+
+
 
 
 
